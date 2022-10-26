@@ -30,4 +30,8 @@ public class Dog
     {
         return age;
     }
+
+    public String getInfo(){
+        return getName() + " " + getAge() + " " + asleep();
+    }
 }
